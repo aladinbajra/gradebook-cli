@@ -120,4 +120,5 @@ Automated Testing & Reliability
 - Data Integrity: Confirms unique IDs and prevents duplicate enrollments or courses.Calculation Accuracy: 
 - Guarantees precise Average and GPA results across all edge cases.Status: All tests passed (OK), confirming 100% functional reliability.
 
-<img width="1108" height="944" alt="automated tetsing" src="https://github.com/user-attachments/assets/fd5c2b4e-a8fb-444e-841a-0a390f1cfef3" />
+<img width="1108" height="944" alt="automated tetsing" src="https://github.com/user-attachments/assets/b37112db-1546-4db7-b581-9eddec1a757a" />
+
