@@ -103,12 +103,9 @@ python .\main.py gpa --student-id 1
 ```
 
 ## Demo Screenshot
-This screenshot demonstrates a complete end-to-end usage flow of the Gradebook CLI within a virtual environment.
-The following steps are performed:
-Student Creation: Adding "John Doe" to the system (assigned ID 5).
-Course Management: Creating a new course "AA111 - AI Systems".
-Enrollment: Registering the student into the specific course.
-Grade Entry: Adding multiple grades (95 and 85) for the student to test the calculation logic.
-Data Processing:Calculating the Average for a specific course (80.00).Calculating the total GPA for the student (80.00).
+- This example demonstrates the core lifecycle of the Gradebook CLI:
+- Setup: Created student "John Doe" (ID 5) and course "AA111 - AI Systems".
+- Action: Enrolled the student and added multiple grades ($95$ and $85$).
+- Results: Automatically calculated a course Average of 90.00 and an overall GPA of 90.00.
 
 <img width="1365" height="310" alt="image" src="https://github.com/user-attachments/assets/42160160-49e5-4173-bb93-a288d32eb77a" />
