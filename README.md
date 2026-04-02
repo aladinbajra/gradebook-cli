@@ -1,1 +1,103 @@
-# gradebook-cli
+# Gradebook CLI
+
+A simple command-line gradebook built with Python. It manages students, courses, enrollments, and grades using a JSON file for storage.
+
+## Overview
+
+- Input validation via validators
+- Clean table output for list commands
+- Logging to logs/app.log
+- Unit tests for core functionality
+
+## Setup
+
+### Create and activate virtual environment
+
+Windows:
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+macOS/Linux:
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+No external dependencies required.
+
+## Seed data
+
+```powershell
+python .\scripts\seed.py
+```
+
+## CLI Usage
+
+Show all commands:
+```powershell
+python .\main.py --help
+```
+
+### Examples
+
+Add student:
+```powershell
+python .\main.py add-student --name "Aladin Bajra"
+```
+
+Add course:
+```powershell
+python .\main.py add-course --code AA101 --title "AI Systems"
+```
+
+Enroll student:
+```powershell
+python .\main.py enroll --student-id 1 --course AA101
+```
+
+Add grade:
+```powershell
+python .\main.py add-grade --student-id 1 --course AA101 --grade 95
+```
+
+List data:
+```powershell
+python .\main.py list students
+python .\main.py list courses --sort code
+```
+
+Compute average and GPA:
+```powershell
+python .\main.py avg --student-id 1 --course AA101
+python .\main.py gpa --student-id 1
+```
+
+## Tests
+
+```powershell
+python -m unittest .\tests\test_service.py -v
+```
+
+## Design decisions
+
+- Centralized validation in validators.py
+- Simple GPA (mean of course averages)
+- JSON storage for simplicity
+- CLI-focused design with readable output
+
+## Limitations
+
+- No database (uses JSON)
+- No concurrency handling
+- GPA is unweighted
+
+## Quick check
+
+```powershell
+python .\scripts\seed.py
+python .\main.py list students
+python .\main.py avg --student-id 1 --course AA101
+python .\main.py gpa --student-id 1
+```

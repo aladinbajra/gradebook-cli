@@ -1,0 +1,79 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Aladin Bajra"
+    },
+    {
+      "id": 2,
+      "name": "Altin Bajra"
+    },
+    {
+      "id": 3,
+      "name": "Olta Bajra"
+    },
+    {
+      "id": 4,
+      "name": "Fiona Jusufi"
+    }
+  ],
+  "courses": [
+    {
+      "code": "AA101",
+      "title": "AI Agentic Systems"
+    },
+    {
+      "code": "ML102",
+      "title": "Machine Learning & NLP"
+    },
+    {
+      "code": "PP100",
+      "title": "Python Programming"
+    }
+  ],
+  "enrollments": [
+    {
+      "student_id": 1,
+      "course_code": "AA101",
+      "grades": [
+        92.0,
+        88.0
+      ]
+    },
+    {
+      "student_id": 1,
+      "course_code": "ML102",
+      "grades": [
+        75.0,
+        81.0
+      ]
+    },
+    {
+      "student_id": 2,
+      "course_code": "AA101",
+      "grades": [
+        70.0,
+        65.0
+      ]
+    },
+    {
+      "student_id": 3,
+      "course_code": "ML102",
+      "grades": [
+        95.0,
+        100.0
+      ]
+    },
+    {
+      "student_id": 4,
+      "course_code": "PP100",
+      "grades": [
+        50.0,
+        100.0,
+        70.0,
+        20.0,
+        15.0
+      ]
+    }
+  ]
+}
