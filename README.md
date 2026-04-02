@@ -102,10 +102,20 @@ python .\main.py avg --student-id 1 --course AA101
 python .\main.py gpa --student-id 1
 ```
 
-## Demo Screenshot
+## Demo 
 - This example demonstrates the core lifecycle of the Gradebook CLI:
 - Setup: Created student "John Doe" (ID 5) and course "AA111 - AI Systems".
 - Action: Enrolled the student and added multiple grades ($95$ and $85$).
 - Results: Automatically calculated a course Average of 90.00 and an overall GPA of 90.00.
 
 <img width="1365" height="310" alt="image" src="https://github.com/user-attachments/assets/42160160-49e5-4173-bb93-a288d32eb77a" />
+
+
+-Automated Testing & Reliability
+-
+-This screenshot shows the successful execution of 20 unit tests, ensuring the system's stability:
+-Logic Validation: Verifies that invalid grades (e.g., $>100$ or $<0$) and non-numeric inputs are correctly blocked.
+-Data Integrity: Confirms unique IDs and prevents duplicate enrollments or courses.Calculation Accuracy: 
+-Guarantees precise Average and GPA results across all edge cases.Status: All tests passed (OK), confirming 100% functional reliability.
+
+<img width="1108" height="944" alt="automated tetsing" src="https://github.com/user-attachments/assets/fd5c2b4e-a8fb-444e-841a-0a390f1cfef3" />
