@@ -9,6 +9,41 @@ A simple command-line gradebook built with Python. It manages students, courses,
 - Logging to logs/app.log
 - Unit tests for core functionality
 
+## Project Structure
+
+gradebook-cli/
+│
+├── LICENSE
+├── README.md
+├── main.py
+│
+├── data/
+│   └── gradebook.json
+│
+├── gradebook/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── service.py
+│   ├── storage.py
+│   └── validators.py
+│
+├── logs/
+│   └── app.log
+│
+├── scripts/
+│   └── seed.py
+│
+└── tests/
+    └── test_service.py
+
+# Folder description:
+
+- data/ → stores JSON data
+- gradebook/ → core application logic
+- logs/ → application logs
+- scripts/ → helper scripts (e.g., seed data)
+- tests/ → unit tests
+
 ## Setup
 
 ### Create and activate virtual environment
