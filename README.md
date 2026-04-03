@@ -141,7 +141,7 @@ python .\main.py gpa --student-id 1
 - Action: Enrolled the student and added multiple grades ($95$ and $85$).
 - Results: Automatically calculated a course Average of 90.00 and an overall GPA of 90.00.
 
-<img width="1365" height="310" alt="image" src="https://github.com/user-attachments/assets/42160160-49e5-4173-bb93-a288d32eb77a" />
+<img width="1365" height="310" alt="core_lifecycle" src="https://github.com/user-attachments/assets/42160160-49e5-4173-bb93-a288d32eb77a" />
 
 
 Automated Testing & Reliability
@@ -151,5 +151,5 @@ Automated Testing & Reliability
 - Data Integrity: Confirms unique IDs and prevents duplicate enrollments or courses.Calculation Accuracy: 
 - Guarantees precise Average and GPA results across all edge cases.Status: All tests passed (OK), confirming 100% functional reliability.
 
-<img width="1108" height="944" alt="automated tetsing" src="https://github.com/user-attachments/assets/b37112db-1546-4db7-b581-9eddec1a757a" />
+<img width="1108" height="944" alt="unit_tests" src="https://github.com/user-attachments/assets/b37112db-1546-4db7-b581-9eddec1a757a" />
 
