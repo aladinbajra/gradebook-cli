@@ -102,7 +102,7 @@ python .\main.py avg --student-id 1 --course AA101
 python .\main.py gpa --student-id 1
 ```
 
-## Demo 
+## Demo Screenshots
 
 
 - This example demonstrates the core lifecycle of the Gradebook CLI:
