@@ -11,30 +11,26 @@ A simple command-line gradebook built with Python. It manages students, courses,
 
 ## Project Structure
 
- gradebook-cli/
- │
- ├── LICENSE
- ├── README.md
- ├── main.py
- │
- ├── data/
- │   └── gradebook.json
- │
- ├── gradebook/
- │   ├── __init__.py
- │   ├── models.py
- │   ├── service.py
- │   ├── storage.py
- │   └── validators.py
- │
- ├── logs/
- │   └── app.log
- │
- ├── scripts/
- │   └── seed.py
- │
- └── tests/
-     └── test_service.py
+```text
+gradebook-cli/
+├── LICENSE
+├── README.md
+├── main.py
+├── data/
+│   └── gradebook.json
+├── gradebook/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── service.py
+│   ├── storage.py
+│   └── validators.py
+├── logs/
+│   └── app.log
+├── scripts/
+│   └── seed.py
+└── tests/
+    └── test_service.py
+```
 
 ### Folder description:
 
